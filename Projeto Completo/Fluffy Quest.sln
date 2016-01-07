@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluffy Quest", "Fluffy Quest\Fluffy Quest\Fluffy Quest.csproj", "{B5D2FD78-B537-4277-A2BA-3E3746CE5326}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Fluffy QuestContent", "Fluffy Quest\Fluffy QuestContent\Fluffy QuestContent.contentproj", "{B2134F66-60CB-44E1-ABA9-C945E9DFEA32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5D2FD78-B537-4277-A2BA-3E3746CE5326}.Debug|x86.ActiveCfg = Debug|x86
+		{B5D2FD78-B537-4277-A2BA-3E3746CE5326}.Debug|x86.Build.0 = Debug|x86
+		{B5D2FD78-B537-4277-A2BA-3E3746CE5326}.Release|x86.ActiveCfg = Release|x86
+		{B5D2FD78-B537-4277-A2BA-3E3746CE5326}.Release|x86.Build.0 = Release|x86
+		{B2134F66-60CB-44E1-ABA9-C945E9DFEA32}.Debug|x86.ActiveCfg = Debug|x86
+		{B2134F66-60CB-44E1-ABA9-C945E9DFEA32}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
