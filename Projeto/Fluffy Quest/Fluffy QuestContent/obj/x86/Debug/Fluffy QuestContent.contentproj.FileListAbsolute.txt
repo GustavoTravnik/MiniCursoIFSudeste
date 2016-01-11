@@ -1,1 +1,2 @@
 D:\MiniCursoIFSudeste\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy QuestContent\obj\x86\Debug\Fluffy QuestContent.contentprojResolveAssemblyReference.cache
+C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy QuestContent\obj\x86\Debug\Fluffy QuestContent.contentprojResolveAssemblyReference.cache

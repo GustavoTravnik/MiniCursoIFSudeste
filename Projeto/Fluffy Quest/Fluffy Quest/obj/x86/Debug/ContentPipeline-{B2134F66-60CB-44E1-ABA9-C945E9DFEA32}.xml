@@ -8,10 +8,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\MiniCursoIFSudeste\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy QuestContent\</RootDirectory>
-      <LoggerRootDirectory>D:\MiniCursoIFSudeste\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\MiniCursoIFSudeste\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\MiniCursoIFSudeste\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy QuestContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

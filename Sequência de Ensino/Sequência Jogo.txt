@@ -1,0 +1,10 @@
+Definir resolução, mudar a cor base para branco, criar spritebatch begin e end.
+Criar a grama.
+Criar fluffy.
+Criar movimentação do fluffy.
+Limitar movimentação do fluffy para não sair da tela.
+Criar as pedras.
+Criar limite de movimentação do fluffy nas pedras
+Criar biscoitos
+Criar fluffy pegando os biscoitos
+Criar Placar de biscoitos

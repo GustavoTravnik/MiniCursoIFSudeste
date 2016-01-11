@@ -4,3 +4,9 @@ D:\MiniCursoIFSudeste\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\obj\x
 D:\MiniCursoIFSudeste\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 D:\MiniCursoIFSudeste\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Fluffy Quest.exe
 D:\MiniCursoIFSudeste\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Fluffy Quest.pdb
+C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Fluffy Quest.exe
+C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Fluffy Quest.pdb
+C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Fluffy Quest.csprojResolveAssemblyReference.cache
+C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Fluffy Quest.exe
+C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Fluffy Quest.pdb
