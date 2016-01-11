@@ -28,6 +28,24 @@
       <Output>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\pedra.xnb</Output>
       <Time>2016-01-11T12:52:23.9504801-02:00</Time>
     </Item>
+    <Item>
+      <Source>biscoito.png</Source>
+      <Name>biscoito</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\biscoito.xnb</Output>
+      <Time>2016-01-11T14:24:36.3359655-02:00</Time>
+    </Item>
+    <Item>
+      <Source>fonte.spritefont</Source>
+      <Name>fonte</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\fonte.xnb</Output>
+      <Time>2016-01-11T14:42:05.5277619-02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{B2134F66-60CB-44E1-ABA9-C945E9DFEA32}</ContentProjectGUID>

@@ -12,3 +12,5 @@ C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\
 C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Fluffy Quest.exe
 C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Fluffy Quest.pdb
+C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\biscoito.xnb
+C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\fonte.xnb

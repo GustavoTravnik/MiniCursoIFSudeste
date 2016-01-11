@@ -1,3 +1,5 @@
 Content\fluffy.xnb
 Content\grama.xnb
 Content\pedra.xnb
+Content\biscoito.xnb
+Content\fonte.xnb

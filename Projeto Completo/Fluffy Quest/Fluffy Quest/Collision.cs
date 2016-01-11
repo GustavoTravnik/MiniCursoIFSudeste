@@ -8,6 +8,13 @@ namespace Fluffy_Quest
 {
     public static class Collision
     {
+        public static Fluffy fluffy;
+
+        public static Boolean EncostouEmFluffy(ClasseBase objeto)
+        {
+            return CreateSourceRectangle(fluffy.posicao).Intersects(CreateSourceRectangle(objeto.posicao));
+        }
+
         private static Boolean IsCrash(List<Pedra> target, float speedX, float speedY, Rectangle sourceRectangle)
         {
             Boolean bump = false;

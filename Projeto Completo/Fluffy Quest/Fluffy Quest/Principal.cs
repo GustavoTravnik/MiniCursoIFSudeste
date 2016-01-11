@@ -19,7 +19,10 @@ namespace Fluffy_Quest
         public Fluffy fluffy;
         List<Grama> gramas = new List<Grama>();
         List<Pedra> pedras = new List<Pedra>();
-        public Texture2D texturaGrama, texturaPedra, textureFluffy;
+        List<Biscoito> biscoitos = new List<Biscoito>();
+        public Texture2D texturaGrama, texturaPedra, texturaFluffy, texturaBiscoito;
+        int biscoitosColetados = 0;
+        SpriteFont fonte;
 
         public Principal()
         {
@@ -32,7 +35,6 @@ namespace Fluffy_Quest
         protected override void Initialize()
         {
             base.Initialize();
-
         }
 
         private readonly Object lockObj = new Object();
@@ -54,6 +56,7 @@ namespace Fluffy_Quest
                 {
                     CriarGramas(i, j);
                     CriarPedras(i, j);
+                    CriarBiscoitos(i, j);
                 }
             }
         }
@@ -75,9 +78,35 @@ namespace Fluffy_Quest
             }
         }
 
+        private void CriarBiscoitos(int i, int j)
+        {
+            if (GetRandomNumber(0, 5) == 2 && i != 0 && j != 0)
+            {
+                Vector2 posicao = new Vector2(i, j);
+                if (!JaExisteUmaPedraEm(posicao))
+                {
+                    Biscoito biscoito = new Biscoito(posicao, texturaBiscoito);
+                    biscoitos.Add(biscoito);
+                }
+            }
+        }
+
+        private Boolean JaExisteUmaPedraEm(Vector2 posicao)
+        {
+            foreach (Pedra pedra in pedras)
+            {
+                if (pedra.posicao.Equals(posicao))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
         private void CriarFluffy()
         {
-            fluffy = new Fluffy(Vector2.Zero, textureFluffy, pedras);
+            fluffy = new Fluffy(Vector2.Zero, texturaFluffy, pedras);
+            Collision.fluffy = fluffy;
         }
 
         protected override void LoadContent()
@@ -85,9 +114,30 @@ namespace Fluffy_Quest
             spriteBatch = new SpriteBatch(GraphicsDevice);
             texturaGrama = Content.Load<Texture2D>("grama");
             texturaPedra = Content.Load<Texture2D>("pedra");
-            textureFluffy = Content.Load<Texture2D>("fluffy");
+            texturaFluffy = Content.Load<Texture2D>("fluffy");
+            texturaBiscoito = Content.Load<Texture2D>("biscoito");
+            fonte = Content.Load<SpriteFont>("fonte");
             CriarCenario();
             CriarFluffy();
+        }
+
+        private void DesenharPlacar(SpriteBatch render)
+        {
+            render.DrawString(fonte, "Biscoitos Coletados: " + biscoitosColetados.ToString(), Vector2.Zero, Color.White);
+        }
+
+        private void AtualizarBiscoitos(GameTime gameTime)
+        {
+            for (int i = 0; i < biscoitos.Count; i++)
+            {
+                biscoitos[i].Update(gameTime);
+                if (!biscoitos[i].vivo)
+                {
+                    biscoitosColetados++;
+                    biscoitos.Remove(biscoitos[i]);
+                    i--;
+                }
+            }
         }
 
         protected override void UnloadContent()
@@ -95,11 +145,11 @@ namespace Fluffy_Quest
 
         }
 
-
         protected override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
             fluffy.Update(gameTime);
+            AtualizarBiscoitos(gameTime);
         }
 
         protected override void Draw(GameTime gameTime)
@@ -117,7 +167,14 @@ namespace Fluffy_Quest
                 pedra.Draw(spriteBatch);
             }
 
+            foreach (Biscoito biscoito in biscoitos)
+            {
+                biscoito.Draw(spriteBatch);
+            }
+
             fluffy.Draw(spriteBatch);
+
+            DesenharPlacar(spriteBatch);
 
             spriteBatch.End();
             base.Draw(gameTime);
