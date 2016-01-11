@@ -1,6 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
   <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>fluffy.png</Source>
+      <Name>fluffy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\fluffy.xnb</Output>
+      <Time>2016-01-11T11:25:28.6526966-02:00</Time>
+    </Item>
+    <Item>
+      <Source>grama.png</Source>
+      <Name>grama</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\grama.xnb</Output>
+      <Time>2016-01-11T12:52:23.9454791-02:00</Time>
+    </Item>
+    <Item>
+      <Source>pedra.png</Source>
+      <Name>pedra</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\pedra.xnb</Output>
+      <Time>2016-01-11T12:52:23.9504801-02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{B2134F66-60CB-44E1-ABA9-C945E9DFEA32}</ContentProjectGUID>
@@ -8,12 +35,36 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\MiniCursoIFSudeste\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy QuestContent\</RootDirectory>
-      <LoggerRootDirectory>D:\MiniCursoIFSudeste\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\MiniCursoIFSudeste\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\MiniCursoIFSudeste\MiniCursoIFSudeste\Projeto\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy QuestContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T15:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T15:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T15:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T15:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T15:22:30-03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T15:22:30-03:00</Value>
+      </Assembly>
       <Assembly>
         <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
         <Value>2016-01-04T12:59:28.9229877-02:00</Value>
