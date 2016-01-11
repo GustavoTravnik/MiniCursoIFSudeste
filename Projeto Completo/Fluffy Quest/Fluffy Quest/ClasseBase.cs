@@ -16,6 +16,7 @@ namespace Fluffy_Quest
         {
 
         }
+
         public virtual void Draw(SpriteBatch render)
         {
             render.Draw(textura, posicao, Color.White);

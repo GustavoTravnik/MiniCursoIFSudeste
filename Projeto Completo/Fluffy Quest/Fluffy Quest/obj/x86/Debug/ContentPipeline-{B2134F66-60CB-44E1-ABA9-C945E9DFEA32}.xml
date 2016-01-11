@@ -46,13 +46,22 @@
       <Output>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\fonte.xnb</Output>
       <Time>2016-01-11T14:42:05.5277619-02:00</Time>
     </Item>
+    <Item>
+      <Source>comerBiscoitoSFX.mp3</Source>
+      <Name>comerBiscoitoSFX</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\comerBiscoitoSFX.xnb</Output>
+      <Time>2016-01-11T14:58:03.5823345-02:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{B2134F66-60CB-44E1-ABA9-C945E9DFEA32}</ContentProjectGUID>
       <TargetPlatform>Windows</TargetPlatform>
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
-      <CompressContent>false</CompressContent>
+      <CompressContent>true</CompressContent>
       <RootDirectory>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy QuestContent\</RootDirectory>
       <LoggerRootDirectory>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\</LoggerRootDirectory>
       <IntermediateDirectory>C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\obj\x86\Debug\</IntermediateDirectory>

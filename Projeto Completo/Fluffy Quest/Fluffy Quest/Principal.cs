@@ -23,6 +23,7 @@ namespace Fluffy_Quest
         public Texture2D texturaGrama, texturaPedra, texturaFluffy, texturaBiscoito;
         int biscoitosColetados = 0;
         SpriteFont fonte;
+        SoundEffect comerBiscoitoSFX;
 
         public Principal()
         {
@@ -68,9 +69,14 @@ namespace Fluffy_Quest
             gramas.Add(grama);
         }
 
+        private Boolean ChanceDeAcerto(int i, int j)
+        {
+            return GetRandomNumber(0, 5) == 5 && i != 0 && j != 0;
+        }
+
         private void CriarPedras(int i, int j)
         {
-            if (GetRandomNumber(0, 5) == 5 && i != 0 && j != 0)
+            if (ChanceDeAcerto(i, j))
             {
                 Vector2 posicao = new Vector2(i, j);
                 Pedra pedra = new Pedra(posicao, texturaPedra);
@@ -80,7 +86,7 @@ namespace Fluffy_Quest
 
         private void CriarBiscoitos(int i, int j)
         {
-            if (GetRandomNumber(0, 5) == 2 && i != 0 && j != 0)
+            if (ChanceDeAcerto(i, j))
             {
                 Vector2 posicao = new Vector2(i, j);
                 if (!JaExisteUmaPedraEm(posicao))
@@ -117,6 +123,7 @@ namespace Fluffy_Quest
             texturaFluffy = Content.Load<Texture2D>("fluffy");
             texturaBiscoito = Content.Load<Texture2D>("biscoito");
             fonte = Content.Load<SpriteFont>("fonte");
+            comerBiscoitoSFX = Content.Load<SoundEffect>("comerBiscoitoSFX");
             CriarCenario();
             CriarFluffy();
         }
@@ -134,6 +141,7 @@ namespace Fluffy_Quest
                 if (!biscoitos[i].vivo)
                 {
                     biscoitosColetados++;
+                    comerBiscoitoSFX.Play();
                     biscoitos.Remove(biscoitos[i]);
                     i--;
                 }
@@ -150,6 +158,10 @@ namespace Fluffy_Quest
             base.Update(gameTime);
             fluffy.Update(gameTime);
             AtualizarBiscoitos(gameTime);
+            if (biscoitos.Count == 0)
+            {
+                Exit();
+            }
         }
 
         protected override void Draw(GameTime gameTime)
