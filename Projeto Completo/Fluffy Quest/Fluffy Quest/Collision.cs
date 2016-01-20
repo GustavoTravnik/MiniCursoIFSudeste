@@ -10,7 +10,7 @@ namespace Fluffy_Quest
     {
         public static Fluffy fluffy;
 
-        public static Boolean EncostouEmFluffy(ClasseBase objeto)
+        public static Boolean TouchFluffy(ClasseBase objeto)
         {
             return CreateSourceRectangle(fluffy.posicao).Intersects(CreateSourceRectangle(objeto.posicao));
         }

@@ -20,7 +20,7 @@ namespace Fluffy_Quest
 
         public override void Update(GameTime gameTime)
         {
-            if (Collision.EncostouEmFluffy(this))
+            if (Collision.TouchFluffy(this))
             {
                 vivo = false;
             }

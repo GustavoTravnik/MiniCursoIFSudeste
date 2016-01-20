@@ -16,3 +16,25 @@ C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\
 C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\fonte.xnb
 C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\comerBiscoitoSFX.xnb
 C:\Users\gtravnik\Documents\IF\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Fluffy Quest.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\fluffy.xnb
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\grama.xnb
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\pedra.xnb
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\biscoito.xnb
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\fonte.xnb
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Content\comerBiscoitoSFX.xnb
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Fluffy Quest.exe
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Fluffy Quest.pdb
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.dll
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.dll
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Microsoft.Xna.Framework.Game.xml
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Microsoft.Xna.Framework.Graphics.xml
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Microsoft.Xna.Framework.GamerServices.xml
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\bin\x86\Debug\Microsoft.Xna.Framework.Input.Touch.xml
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Fluffy Quest.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Fluffy Quest.exe
+C:\Users\Gustavo\Desktop\IF SUDENTE\MiniCursoIFSudeste\Projeto Completo\Fluffy Quest\Fluffy Quest\obj\x86\Debug\Fluffy Quest.pdb

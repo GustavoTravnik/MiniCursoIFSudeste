@@ -21,7 +21,7 @@ namespace Fluffy_Quest
             this.pedras = pedras;
         }
 
-        private void LimitarBordas()
+        private void ConstraintBorders()
         {
             if (posicao.X < 0)
             {
@@ -41,7 +41,7 @@ namespace Fluffy_Quest
             }
         }
 
-        private void Controle()
+        private void Control()
         {
             KeyboardState keyboard = Keyboard.GetState();
 
@@ -80,8 +80,8 @@ namespace Fluffy_Quest
 
         public override void Update(GameTime gameTime)
         {
-            Controle();
-            LimitarBordas();
+            Control();
+            ConstraintBorders();
         }
 
         public override void Draw(SpriteBatch render)
